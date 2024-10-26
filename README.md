@@ -72,9 +72,20 @@ winget install --scope machine Microsoft.PowerToys -s winget
 
 There are [community driven install methods](./doc/unofficialInstallMethods.md) such as Chocolatey and Scoop. If these are your preferred install solutions, you can find the install instructions there.
 
-## Third-Party Run Plugins
+## Usage Guidelines
 
-There is a collection of [third-party plugins](./doc/thirdPartyRunPlugins.md) created by the community that aren't distributed with PowerToys.
+### General Usage
+
+1. **Launch PowerToys**: After installation, launch PowerToys from the Start menu or by searching for "PowerToys" in the Windows search bar.
+2. **Access Settings**: Right-click the PowerToys icon in the system tray and select "Settings" to configure the utilities.
+3. **Enable/Disable Utilities**: In the Settings window, toggle the switches to enable or disable specific utilities.
+4. **Configure Utilities**: Click on each utility in the left sidebar to access its specific settings and configuration options.
+
+### Specific Utilities
+
+- **FancyZones**: Create and customize window layouts for better multitasking. Access FancyZones settings to define your preferred layouts and activate them using the assigned hotkeys.
+- **PowerRename**: Batch rename files with advanced search and replace functionality. Right-click on a file or folder and select "PowerRename" from the context menu to use this utility.
+- **Color Picker**: Quickly pick colors from any screen and copy their values. Press the assigned hotkey (default: Win + Shift + C) to activate the Color Picker and select a color.
 
 ## Contributing
 
